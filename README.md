@@ -8,3 +8,4 @@ It has several files containing different exercises, each focusing on a specific
 2. `syntax.php`: This file contains exercises related to PHP syntax.
 3. `comments.php`: This file contains exercises related to adding comments in PHP code.
 4. `variables.php`: This file contains exercises related to declaring and using variables in PHP.
+5. `echo-print.php`: This file contains exercises related to using `echo` and `print` statements in PHP.
