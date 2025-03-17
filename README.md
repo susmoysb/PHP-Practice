@@ -13,3 +13,4 @@ It has several files containing different exercises, each focusing on a specific
 7. `strings.php`: This file contains exercises related to manipulating and working with strings in PHP.
 8. `numbers.php`: This file contains exercises related to working with numbers in PHP.
 9. `casting.php`: This file contains exercises related to type casting in PHP.
+10. `constants.php`: This file contains exercises related to defining and using constants in PHP.
