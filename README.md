@@ -9,4 +9,5 @@ It has several files containing different exercises, each focusing on a specific
 3. `comments.php`: This file contains exercises related to adding comments in PHP code.
 4. `variables.php`: This file contains exercises related to declaring and using variables in PHP.
 5. `echo-print.php`: This file contains exercises related to using `echo` and `print` statements in PHP.
-6. `strings.php`: This file contains exercises related to manipulating and working with strings in PHP.
+6. `data-types.php`: This file contains exercises related to understanding and using different data types in PHP.
+7. `strings.php`: This file contains exercises related to manipulating and working with strings in PHP.
