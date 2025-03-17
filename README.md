@@ -17,3 +17,4 @@ It has several files containing different exercises, each focusing on a specific
 11. `if-elseif-else-switch.php`: This file contains exercises related to using `if`, `elseif`, `else`, and `switch` statements in PHP.
 12. `loops.php`: This file contains exercises related to using different types of loops in PHP, such as `for`, `while`, `do-while`, and `foreach` loops.
 13. `functions.php`: This file contains exercises related to defining and using functions in PHP, including user-defined functions, built-in functions, and anonymous functions.
+14. `arrays.php`: This file contains exercises related to creating, manipulating, and accessing arrays in PHP, including indexed arrays, associative arrays, and multidimensional arrays.
