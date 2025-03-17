@@ -74,8 +74,49 @@ echo strcmp("Hello", "Hello") . "\n"; // Output: 0
 echo strcmp("Hello", "World") . "\n"; // Output: -1
 echo strcmp("World", "Hello") . "\n"; // Output: 1
 
+// The strcasecmp() function compares two strings (case-insensitive).
+echo strcasecmp("Hello world!", "HELLO WORLD!") . "\n"; // Output: 0
+
 // Substring
 // The PHP substr() function returns a part of a string.
 echo substr("Hello World!", 6) . "\n"; // Output: World!
 echo substr("Hello World!", 0, 5) . "\n"; // Output: Hello
-?>
+
+// The explode() function breaks a string into an array.
+$str = "Hello world. It's a beautiful day.";
+print_r(explode(" ", $str));
+
+// The str_split() function splits a string into an array.
+print_r(str_split("Hello", 2));
+
+// The implode() function returns a string from the elements of an array.
+$arr = array('Hello', 'World!', 'Beautiful', 'Day!');
+echo implode(" ", $arr) . "\n";
+
+// The chop() function removes whitespaces or other predefined characters from the right end of a string.
+echo chop("Hello World!", "World!") . "\n"; // Output: Hello
+
+// The chr() function returns a character from the specified ASCII value.
+// The ASCII value can be specified in decimal, octal, or hex values. Octal values are defined by a leading 0, while hex values are defined by a leading 0x.
+echo chr(52) . "\n"; // Decimal value Output: 4
+echo chr(052) . "\n"; // Octal value Output: *
+echo chr(0x52) . "\n"; // Hex value Output: R
+
+// The ord() function returns the ASCII value of the first character of a string.
+echo ord("h") . "\n"; // Output: 104
+echo ord("hello") . "\n"; // Output: 104
+
+// The chunk_split() function splits a string into a series of smaller parts.
+echo chunk_split("Hello world!", 6, "...") . "\n"; // Output: Hello ...world!...
+
+// The count_chars() function returns information about characters used in a string (for example, how many times an ASCII character occurs in a string, or which characters that have been used or not been used in a string).
+echo count_chars("Hello World!", 3) . "\n"; // Output: !HWdelor
+
+// The number_format() function formats a number with grouped thousands.
+echo number_format("1000000", 2) . "\n"; // Output: 1,000,000.00
+
+// The str_shuffle() function randomly shuffles all the characters of a string.
+echo str_shuffle("Hello World") . "\n"; // Output: Generates random string every time
+
+// The str_word_count() function counts the number of words in a string.
+echo str_word_count("Hello world!") . "\n"; // Output: 2
