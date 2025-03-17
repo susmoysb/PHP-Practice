@@ -11,3 +11,4 @@ It has several files containing different exercises, each focusing on a specific
 5. `echo-print.php`: This file contains exercises related to using `echo` and `print` statements in PHP.
 6. `data-types.php`: This file contains exercises related to understanding and using different data types in PHP.
 7. `strings.php`: This file contains exercises related to manipulating and working with strings in PHP.
+8. `numbers.php`: This file contains exercises related to working with numbers in PHP.
